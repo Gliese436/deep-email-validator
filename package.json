@@ -39,26 +39,26 @@
     "run-debug": "nodemon --inspect dist/server.js"
   },
   "dependencies": {
-    "@types/disposable-email-domains": "^1.0.1",
-    "axios": "^0.24.0",
-    "disposable-email-domains": "^1.0.59",
+    "@types/disposable-email-domains": "^1.0.6",
+    "axios": "^1.9.0",
+    "disposable-email-domains": "^1.0.62",
     "mailcheck": "^1.1.1"
   },
   "devDependencies": {
-    "@types/eslint": "^6.1.1",
-    "@types/jest": "^24.0.23",
-    "@types/lodash": "^4.14.141",
+    "@types/eslint": "^9.6.1",
+    "@types/jest": "^29.5.14",
+    "@types/lodash": "^4.17.16",
     "@types/mailcheck": "^1.1.31",
-    "@types/node": "^12.7.8",
-    "@typescript-eslint/eslint-plugin": "^2.3.1",
-    "@typescript-eslint/parser": "^2.3.1",
-    "eslint": "^6.4.0",
-    "jest": "^25.1.0",
+    "@types/node": "^22.15.18",
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
+    "eslint": "^9.26.0",
+    "jest": "^29.7.0",
     "lodash": "^4.17.21",
-    "nodemon": "^2.0.15",
+    "nodemon": "^3.1.10",
     "prettier": "^2.5.1",
-    "ts-jest": "^25.2.1",
-    "ts-node": "^10.4.0",
-    "typescript": "^3.8.3"
+    "ts-jest": "^29.3.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }

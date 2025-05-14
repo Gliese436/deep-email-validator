@@ -6,7 +6,7 @@ type TypoSuggestion = {
   full: string
 }
 
-export const checkTypo = async (email: string, additionalTLDs?: string[]): Promise<string | undefined> =>
+export const checkTypo = async (email: string, additionalTLDs?: string[]): Promise<string | undefined | void> =>
   new Promise(r => {
     let topLevelDomains = undefined
     if (additionalTLDs && additionalTLDs.length > 0) {
